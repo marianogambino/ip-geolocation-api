@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "6be2325a-07be-4a5f-9362-950d6aa9b64d",
+		"name": "IP_GEOLOCATION_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Endpoints",
+			"item": [
+				{
+					"name": "Get IP location info",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ip-geolocation-api/api/geolocation?ip=100.42.240.0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ip-geolocation-api",
+								"api",
+								"geolocation"
+							],
+							"query": [
+								{
+									"key": "ip",
+									"value": "181.46.9.126",
+									"description": "ARG",
+									"disabled": true
+								},
+								{
+									"key": "ip",
+									"value": "83.44.196.93",
+									"description": "SPAIN",
+									"disabled": true
+								},
+								{
+									"key": "ip",
+									"value": "101.33.22.0",
+									"description": "BRAZIL",
+									"disabled": true
+								},
+								{
+									"key": "ip",
+									"value": "100.42.240.0",
+									"description": "CANADA"
+								},
+								{
+									"key": "ip",
+									"value": "100.42",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Nearest Distance",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ip-geolocation-api/api/nearest-distance",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ip-geolocation-api",
+								"api",
+								"nearest-distance"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get farthest distance",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ip-geolocation-api/api/farthest-distance",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ip-geolocation-api",
+								"api",
+								"farthest-distance"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Average Distance",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ip-geolocation-api/api/average-distance",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ip-geolocation-api",
+								"api",
+								"average-distance"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
