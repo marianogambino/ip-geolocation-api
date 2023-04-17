@@ -1,0 +1,37 @@
+{
+  "ip": "100.42.240.0",
+  "continent_code": "NA",
+  "continent_name": "North America",
+  "country_code2": "CA",
+  "country_code3": "CAN",
+  "country_name": "Canada",
+  "country_capital": "Ottawa",
+  "state_prov": "Nova Scotia",
+  "district": "",
+  "city": "Halifax",
+  "zipcode": "B3K 5L2",
+  "latitude": "44.65837",
+  "longitude": "-63.60323",
+  "is_eu": false,
+  "calling_code": "+1",
+  "country_tld": ".ca",
+  "languages": "en-CA,fr-CA,iu",
+  "country_flag": "https://ipgeolocation.io/static/flags/ca_64.png",
+  "geoname_id": "11820230",
+  "isp": "Eastlink HSI",
+  "connection_type": "",
+  "organization": "EastLink",
+  "currency": {
+    "code": "CAD",
+    "name": "Canadian Dollar",
+    "symbol": "C$"
+  },
+  "time_zone": {
+    "name": "America/Halifax",
+    "offset": -4,
+    "current_time": "2023-04-16 15:37:22.468-0300",
+    "current_time_unix": 1681670242.468,
+    "is_dst": true,
+    "dst_savings": 1
+  }
+}

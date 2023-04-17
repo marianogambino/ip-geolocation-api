@@ -1,0 +1,28 @@
+{
+  "countryName": "Canada",
+  "countryCode": "CA",
+  "timezone": "America/Halifax",
+  "currentDate": "16/04/2023 17:53:58",
+  "languages": [
+    {
+      "name": "English",
+      "languageNative": "English"
+    },
+    {
+      "name": "French",
+      "languageNative": "Français"
+    }
+  ],
+  "time": "15:39:35",
+  "currencyExchangeRate": {
+    "currencyExchange": "U$S",
+    "currentDate": "16/04/2023 15:39:35",
+    "currencyRates": {
+      "currency": "CAD",
+      "price": 1.351402
+    }
+  },
+  "estimatedDistanceKms": 8828,
+  "latitude": "44.65837",
+  "longitude": "-63.60323"
+}
