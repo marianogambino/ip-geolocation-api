@@ -1,0 +1,35 @@
+{
+  "ip": "100.42.240.0",
+  "type": "ipv4",
+  "continent_code": "NA",
+  "continent_name": "North America",
+  "country_code": "CA",
+  "country_name": "Canada",
+  "region_code": "NS",
+  "region_name": "Nova Scotia",
+  "city": "Halifax",
+  "zip": "B3K 1T9",
+  "latitude": 44.6561393737793,
+  "longitude": -63.60039138793945,
+  "location": {
+    "geoname_id": 6324729,
+    "capital": "Ottawa",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English",
+        "native": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French",
+        "native": "Français"
+      }
+    ],
+    "country_flag": "https://assets.ipstack.com/flags/ca.svg",
+    "country_flag_emoji": "🇨🇦",
+    "country_flag_emoji_unicode": "U+1F1E8 U+1F1E6",
+    "calling_code": "1",
+    "is_eu": false
+  }
+}
